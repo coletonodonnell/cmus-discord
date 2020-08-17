@@ -45,12 +45,12 @@ If you use other status display programs for cmus, such as cmusfm, please refer 
 cmusfm "$@" &
 ```
 
-4. Edit .env file:
+4. Create and edit the .env file:
 ```
 $ vim .env
 ```
 
-You should see something like:
+Add the following:
 ```
 # .env
 FULL_DIRECTORY = "/home/username/.config/cmus/"
