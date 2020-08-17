@@ -53,14 +53,15 @@ $ vim .env
 You should see something like:
 ```
 # .env
-FULL_DIRECTORY = "/home/username/.config/cmus/
+FULL_DIRECTORY = "/home/username/.config/cmus/"
 ```
 
-Just like in `status_display_program.sh`, change the username with your username. 
+Just like in `status_display_program.sh`, change the username with your username. **This must end with / for the script to work.**
 
 5. Open cmus, and enter the following:
 ```
-:set status_display_program=/home/username/.cmus/status_display_program.sh
+:set status_display_program=/home/username/.config/cmus/status_display_program.sh
+:save
 ```
 Where username is your username you used before. 
 
